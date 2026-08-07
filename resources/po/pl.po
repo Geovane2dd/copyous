@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 22:40+0000\n"
+"POT-Creation-Date: 2026-08-07 22:52+0000\n"
 "PO-Revision-Date: 2026-04-30 18:05+0200\n"
 "Last-Translator: Adam Lewicki <a.lewicki95@gmail.com>\n"
 "Language-Team: \n"
@@ -1718,22 +1718,22 @@ msgstr "Wyłącz skrót klawiszowy"
 msgid "Disabled"
 msgstr "Wyłączono"
 
-#: src/lib/ui/components/contentInfo.ts:35
+#: src/lib/ui/components/contentInfo.ts:36
 #, javascript-format
 msgid "%dh"
 msgstr "%dgodz"
 
-#: src/lib/ui/components/contentInfo.ts:36
+#: src/lib/ui/components/contentInfo.ts:37
 #, javascript-format
 msgid "%dm"
 msgstr "%dm"
 
-#: src/lib/ui/components/contentInfo.ts:37
+#: src/lib/ui/components/contentInfo.ts:38
 #, javascript-format
 msgid "%ds"
 msgstr "%ds"
 
-#: src/lib/ui/components/contentInfo.ts:116
+#: src/lib/ui/components/contentInfo.ts:117
 #, javascript-format
 msgid "%d char"
 msgid_plural "%d chars"
@@ -1741,7 +1741,7 @@ msgstr[0] "%d znak"
 msgstr[1] "%d znaki"
 msgstr[2] "%d znaków"
 
-#: src/lib/ui/components/contentInfo.ts:123
+#: src/lib/ui/components/contentInfo.ts:124
 #, javascript-format
 msgid "%d word"
 msgid_plural "%d words"
@@ -1749,7 +1749,7 @@ msgstr[0] "%d słowo"
 msgstr[1] "%d słowa"
 msgstr[2] "%d słów"
 
-#: src/lib/ui/components/contentInfo.ts:126
+#: src/lib/ui/components/contentInfo.ts:127
 #, javascript-format
 msgid "%d line"
 msgid_plural "%d lines"
@@ -1757,11 +1757,11 @@ msgstr[0] "%d linia"
 msgstr[1] "%d linie"
 msgstr[2] "%d linii"
 
-#: src/lib/ui/components/contentInfo.ts:186
+#: src/lib/ui/components/contentInfo.ts:187
 msgid "Missing File"
 msgstr "Brakujący plik"
 
-#: src/lib/ui/components/contentInfo.ts:198
+#: src/lib/ui/components/contentInfo.ts:199
 msgid "Error"
 msgstr "Błąd"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 22:40+0000\n"
+"POT-Creation-Date: 2026-08-07 22:52+0000\n"
 "PO-Revision-Date: 2025-12-19 18:30+0800\n"
 "Last-Translator: everyx <lunt.luo@gmail.com>\n"
 "Language-Team: Chinese (China)\n"
@@ -1682,44 +1682,44 @@ msgstr "禁用快捷键"
 msgid "Disabled"
 msgstr "已禁用"
 
-#: src/lib/ui/components/contentInfo.ts:35
+#: src/lib/ui/components/contentInfo.ts:36
 #, javascript-format
 msgid "%dh"
 msgstr "%d小时"
 
-#: src/lib/ui/components/contentInfo.ts:36
+#: src/lib/ui/components/contentInfo.ts:37
 #, javascript-format
 msgid "%dm"
 msgstr "%d分钟"
 
-#: src/lib/ui/components/contentInfo.ts:37
+#: src/lib/ui/components/contentInfo.ts:38
 #, javascript-format
 msgid "%ds"
 msgstr "%d秒"
 
-#: src/lib/ui/components/contentInfo.ts:116
+#: src/lib/ui/components/contentInfo.ts:117
 #, javascript-format
 msgid "%d char"
 msgid_plural "%d chars"
 msgstr[0] "%d 个字符"
 
-#: src/lib/ui/components/contentInfo.ts:123
+#: src/lib/ui/components/contentInfo.ts:124
 #, javascript-format
 msgid "%d word"
 msgid_plural "%d words"
 msgstr[0] "%d 个单词"
 
-#: src/lib/ui/components/contentInfo.ts:126
+#: src/lib/ui/components/contentInfo.ts:127
 #, javascript-format
 msgid "%d line"
 msgid_plural "%d lines"
 msgstr[0] "%d 行"
 
-#: src/lib/ui/components/contentInfo.ts:186
+#: src/lib/ui/components/contentInfo.ts:187
 msgid "Missing File"
 msgstr "文件丢失"
 
-#: src/lib/ui/components/contentInfo.ts:198
+#: src/lib/ui/components/contentInfo.ts:199
 msgid "Error"
 msgstr "错误"
 

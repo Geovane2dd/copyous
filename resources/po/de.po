@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 22:40+0000\n"
+"POT-Creation-Date: 2026-08-07 22:52+0000\n"
 "PO-Revision-Date: 2026-03-26 22:19+0100\n"
 "Last-Translator: Christian Lauinger <christian@lauinger-clan.de>\n"
 "Language-Team: \n"
@@ -1732,47 +1732,47 @@ msgstr "Tastenkürzel deaktivieren"
 msgid "Disabled"
 msgstr "Deaktiviert"
 
-#: src/lib/ui/components/contentInfo.ts:35
+#: src/lib/ui/components/contentInfo.ts:36
 #, javascript-format
 msgid "%dh"
 msgstr "%dh"
 
-#: src/lib/ui/components/contentInfo.ts:36
+#: src/lib/ui/components/contentInfo.ts:37
 #, javascript-format
 msgid "%dm"
 msgstr "%dm"
 
-#: src/lib/ui/components/contentInfo.ts:37
+#: src/lib/ui/components/contentInfo.ts:38
 #, javascript-format
 msgid "%ds"
 msgstr "%ds"
 
-#: src/lib/ui/components/contentInfo.ts:116
+#: src/lib/ui/components/contentInfo.ts:117
 #, javascript-format
 msgid "%d char"
 msgid_plural "%d chars"
 msgstr[0] "%d Zeichen"
 msgstr[1] "%d Zeichen"
 
-#: src/lib/ui/components/contentInfo.ts:123
+#: src/lib/ui/components/contentInfo.ts:124
 #, javascript-format
 msgid "%d word"
 msgid_plural "%d words"
 msgstr[0] "%d Wort"
 msgstr[1] "%d Wörter"
 
-#: src/lib/ui/components/contentInfo.ts:126
+#: src/lib/ui/components/contentInfo.ts:127
 #, javascript-format
 msgid "%d line"
 msgid_plural "%d lines"
 msgstr[0] "%d Zeile"
 msgstr[1] "%d Zeilen"
 
-#: src/lib/ui/components/contentInfo.ts:186
+#: src/lib/ui/components/contentInfo.ts:187
 msgid "Missing File"
 msgstr "Fehlende Datei"
 
-#: src/lib/ui/components/contentInfo.ts:198
+#: src/lib/ui/components/contentInfo.ts:199
 msgid "Error"
 msgstr "Fehler"
 
