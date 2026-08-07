@@ -11,11 +11,12 @@ import { Extension, gettext as _, ngettext } from 'resource:///org/gnome/shell/e
 import type CopyousExtension from '../../../extension.js';
 import { enumParamSpec, registerClass } from '../../common/gjs.js';
 import { Icon, loadIcon } from '../../common/icons.js';
+import { createGraphemeSegmenter, createWordSegmenter } from '../../common/segmenter.js';
 import { TextCountMode } from '../../common/settings.js';
 import { FileType } from './contentPreview.js';
 
-const GraphemeSegmenter = new Intl.Segmenter(undefined, { granularity: 'grapheme' });
-const WordSegmenter = new Intl.Segmenter(undefined, { granularity: 'word' });
+const GraphemeSegmenter = createGraphemeSegmenter();
+const WordSegmenter = createWordSegmenter();
 
 function formatBytes(bytes: number): [string, string] {
 	const units = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];

@@ -9,6 +9,7 @@ import type CopyousExtension from '../../extension.js';
 import { Color } from '../common/color.js';
 import { ItemType, getImagesPath } from '../common/constants.js';
 import { registerClass } from '../common/gjs.js';
+import { createGraphemeSegmenter } from '../common/segmenter.js';
 import { ClipboardEntry, FileOperation, Metadata } from '../database/database.js';
 import { ClipboardEntryTracker } from '../database/entryTracker.js';
 import { Keyboard } from './keyboard.js';
@@ -20,7 +21,7 @@ Gio._promisify(Meta.SelectionSource.prototype, 'read_async');
 
 const Utf8Decoder = new TextDecoder();
 const Utf8Encoder = new TextEncoder();
-const GraphemeSegmenter = new Intl.Segmenter();
+const GraphemeSegmenter = createGraphemeSegmenter();
 
 const MimeTypes = {
 	Text: ['text/plain;charset=utf-8', 'UTF8_STRING', 'text/plain', 'STRING'],
