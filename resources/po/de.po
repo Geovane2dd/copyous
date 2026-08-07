@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 21:59+0000\n"
+"POT-Creation-Date: 2026-08-07 22:11+0000\n"
 "PO-Revision-Date: 2026-03-26 22:19+0100\n"
 "Last-Translator: Christian Lauinger <christian@lauinger-clan.de>\n"
 "Language-Team: \n"
@@ -1889,15 +1889,15 @@ msgstr "Fa__rbe"
 msgid "Type to search"
 msgstr "Zum Suchen tippen"
 
-#: src/prefs.ts:78
+#: src/prefs.ts:87
 msgid "General"
 msgstr "Allgemein"
 
-#: src/prefs.ts:98
+#: src/prefs.ts:107
 msgid "Customization"
 msgstr "Anpassung"
 
-#: src/prefs.ts:115
+#: src/prefs.ts:124
 msgid "Shortcuts"
 msgstr "Tastenkürzel"
 

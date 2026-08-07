@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 21:59+0000\n"
+"POT-Creation-Date: 2026-08-07 22:11+0000\n"
 "PO-Revision-Date: 2025-11-30 20:29+0700\n"
 "Last-Translator: Victor <firephantom303@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -1865,15 +1865,15 @@ msgstr "Цв__ет"
 msgid "Type to search"
 msgstr "Введите текст для поиска"
 
-#: src/prefs.ts:78
+#: src/prefs.ts:87
 msgid "General"
 msgstr "Общие"
 
-#: src/prefs.ts:98
+#: src/prefs.ts:107
 msgid "Customization"
 msgstr "Настройка вида"
 
-#: src/prefs.ts:115
+#: src/prefs.ts:124
 msgid "Shortcuts"
 msgstr "Сочетания клавиш"
 
