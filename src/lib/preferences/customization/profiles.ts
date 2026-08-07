@@ -15,6 +15,7 @@ import {
 	SettingsTypes,
 	ValueTypes,
 } from '../../common/settings.js';
+import { Toggle, ToggleGroup } from './toggleGroup.js';
 
 type ValueOf<T> = T[keyof T];
 
@@ -209,22 +210,22 @@ export class Profiles extends Adw.PreferencesGroup {
 			description: _('Choose between pre-defined profiles'),
 		});
 
-		const toggles = new Adw.ToggleGroup();
+		const toggles = new ToggleGroup();
 		this.add(toggles);
 
-		const defaultToggle = new Adw.Toggle({
+		const defaultToggle = new Toggle({
 			name: 'default',
 			label: _('Default'),
 		});
 		toggles.add(defaultToggle);
 
-		const compactToggle = new Adw.Toggle({
+		const compactToggle = new Toggle({
 			name: 'compact',
 			label: _('Compact'),
 		});
 		toggles.add(compactToggle);
 
-		const customToggle = new Adw.Toggle({
+		const customToggle = new Toggle({
 			name: 'custom',
 			label: _('Custom'),
 		});
