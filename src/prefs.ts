@@ -59,6 +59,15 @@ export default class Preferences extends ExtensionPreferences {
 	override async fillPreferencesWindow(window: Adw.PreferencesWindow) {
 		ensureLogger(this);
 
+		try {
+			await this.doFillPreferencesWindow(window);
+		} catch (e) {
+			this.getLogger().error('fillPreferencesWindow failed', e);
+			throw e;
+		}
+	}
+
+	private async doFillPreferencesWindow(window: Adw.PreferencesWindow) {
 		window.default_height = 810;
 
 		// Enable search
