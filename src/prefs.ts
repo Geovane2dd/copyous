@@ -11,6 +11,7 @@ import { ExtensionPreferences, gettext as _ } from 'resource:///org/gnome/Shell/
 import { loadConfig } from './lib/common/actions.js';
 import { Icon } from './lib/common/icons.js';
 import { CopyousSettings, migrateSettings } from './lib/common/settings.js';
+import { ensureLogger } from './lib/misc/compatibility.js';
 import { ActionsPage } from './lib/preferences/actions/actionsPage.js';
 import { DialogCustomization } from './lib/preferences/customization/dialogCustomization.js';
 import { HeaderCustomization } from './lib/preferences/customization/headerCustomization.js';
@@ -56,6 +57,8 @@ function findHeaderBar(window: Adw.PreferencesWindow): Adw.HeaderBar | null {
 
 export default class Preferences extends ExtensionPreferences {
 	override async fillPreferencesWindow(window: Adw.PreferencesWindow) {
+		ensureLogger(this);
+
 		window.default_height = 810;
 
 		// Enable search

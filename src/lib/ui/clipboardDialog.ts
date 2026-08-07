@@ -19,7 +19,7 @@ import { registerClass } from '../common/gjs.js';
 import { Icon, loadIcon } from '../common/icons.js';
 import { OpenClipboardDialogBehavior } from '../common/settings.js';
 import { ClipboardEntry } from '../database/database.js';
-import { VERSION } from '../misc/compatibility.js';
+import { VERSION, disableUnredirect, enableUnredirect } from '../misc/compatibility.js';
 import { ClipboardScrollView } from './clipboardScrollView.js';
 import { ClipboardItemMenu } from './components/clipboardItemMenu.js';
 import { ConfirmClearHistoryDialog } from './indicator.js';
@@ -470,7 +470,7 @@ export class ClipboardDialog extends St.Widget {
 		}
 
 		this.opened = true;
-		global.compositor.disable_unredirect();
+		disableUnredirect();
 
 		this._dialog.ease({
 			opacity: 255,
@@ -530,7 +530,7 @@ export class ClipboardDialog extends St.Widget {
 				this._grab = null;
 				this._closing = false;
 				this.hide();
-				global.compositor.enable_unredirect();
+				enableUnredirect();
 			},
 		});
 	}
