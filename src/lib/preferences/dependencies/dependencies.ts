@@ -19,6 +19,7 @@ import {
 import { registerClass } from '../../common/gjs.js';
 import { Icon } from '../../common/icons.js';
 import { CopyousSettings } from '../../common/settings.js';
+import { createSpinnerWidget } from '../spinner.js';
 
 export async function checkGda(prefs: ExtensionPreferences): Promise<boolean> {
 	try {
@@ -374,9 +375,7 @@ export class DependenciesWarningButton extends Gtk.MenuButton {
 				window.add_toast(toast);
 
 				// Show spinner
-				const spinner = new Gtk.Image();
-				spinner.paintable = new Adw.SpinnerPaintable({ widget: spinner });
-				this.child = spinner;
+				this.child = createSpinnerWidget();
 				this.remove_css_class('warning');
 
 				// Start download

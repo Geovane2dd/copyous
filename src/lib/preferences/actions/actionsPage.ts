@@ -10,6 +10,7 @@ import { registerClass } from '../../common/gjs.js';
 import { Icon } from '../../common/icons.js';
 import { ActionDefaultsPage } from './actionDefaults.js';
 import { ActionsGroup } from './actionsGroup.js';
+import { ButtonRow } from './buttonRow.js';
 
 Gio._promisify(Adw.AlertDialog.prototype, 'choose');
 
@@ -93,7 +94,7 @@ export class ActionsPage extends Adw.PreferencesPage {
 		restoreBox.end_widget = this._restoreBadge;
 		this.updateRestoreButton();
 
-		const resetButton = new Adw.ButtonRow({ title: _('Reset Actions') });
+		const resetButton = new ButtonRow({ title: _('Reset Actions') });
 		resetButton.add_css_class('destructive-action');
 		resetButton.connect('activated', this.reset.bind(this));
 		resetGroup.add(resetButton);

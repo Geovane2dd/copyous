@@ -20,6 +20,7 @@ import { Icon } from '../../common/icons.js';
 import { NestedListBox } from '../utils.js';
 import { AddActionDialog, EditActionDialog, TypesBox } from './actionDialog.js';
 import { AddActionSubmenuDialog, EditActionSubmenuDialog } from './actionSubMenuDialog.js';
+import { ButtonRow } from './buttonRow.js';
 
 Gio._promisify(Adw.AlertDialog.prototype, 'choose');
 
@@ -74,7 +75,7 @@ class ActionSubmenuRowBase extends Adw.ExpanderRow {
 class ActionSubmenuRow extends ActionSubmenuRowBase {
 	private readonly _actionsList: NestedListBox;
 	private readonly _addActionButtonList: NestedListBox;
-	private readonly _addActionButton: Adw.ButtonRow;
+	private readonly _addActionButton: InstanceType<typeof ButtonRow>;
 
 	constructor(
 		private window: Adw.PreferencesWindow,
@@ -96,7 +97,7 @@ class ActionSubmenuRow extends ActionSubmenuRowBase {
 		this._addActionButtonList = new NestedListBox();
 		this.add_row(this._addActionButtonList);
 
-		this._addActionButton = new Adw.ButtonRow({
+		this._addActionButton = new ButtonRow({
 			title: _('Add Action'),
 			start_icon_name: Icon.Add,
 		});

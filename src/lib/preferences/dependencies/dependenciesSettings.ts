@@ -11,6 +11,7 @@ import type { HLJSApi } from 'highlight.js';
 import { getHljsLanguages, getHljsPath } from '../../common/constants.js';
 import { registerClass } from '../../common/gjs.js';
 import { Icon } from '../../common/icons.js';
+import { Spinner } from '../spinner.js';
 import { downloadHljsLanguage } from './dependencies.js';
 
 @registerClass({
@@ -140,7 +141,7 @@ class LanguageWidget extends Gtk.ListBox {
 
 	private readonly _check: Gtk.Image;
 	private readonly _delete: Gtk.Image;
-	private readonly _spinner: Adw.Spinner;
+	private readonly _spinner: InstanceType<typeof Spinner>;
 
 	private _cancellable: Map<string, Gio.Cancellable> = new Map();
 
@@ -177,7 +178,7 @@ class LanguageWidget extends Gtk.ListBox {
 		});
 		row.add_suffix(this._delete);
 
-		this._spinner = new Adw.Spinner({ visible: false });
+		this._spinner = new Spinner({ visible: false });
 		row.add_suffix(this._spinner);
 
 		this.updateVisibility();
