@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 22:11+0000\n"
+"POT-Creation-Date: 2026-08-07 22:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1008,24 +1008,24 @@ msgstr ""
 msgid "Items"
 msgstr ""
 
-#: src/lib/preferences/customization/profiles.ts:208
+#: src/lib/preferences/customization/profiles.ts:209
 msgid "Profiles"
 msgstr ""
 
-#: src/lib/preferences/customization/profiles.ts:209
+#: src/lib/preferences/customization/profiles.ts:210
 msgid "Choose between pre-defined profiles"
 msgstr ""
 
-#: src/lib/preferences/customization/profiles.ts:217
+#: src/lib/preferences/customization/profiles.ts:218
 #: src/lib/preferences/customization/themeCustomization.ts:75
 msgid "Default"
 msgstr ""
 
-#: src/lib/preferences/customization/profiles.ts:223
+#: src/lib/preferences/customization/profiles.ts:224
 msgid "Compact"
 msgstr ""
 
-#: src/lib/preferences/customization/profiles.ts:229
+#: src/lib/preferences/customization/profiles.ts:230
 #: src/lib/preferences/customization/themeCustomization.ts:75
 msgid "Custom"
 msgstr ""
