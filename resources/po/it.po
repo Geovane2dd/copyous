@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-09 16:27+0000\n"
+"POT-Creation-Date: 2026-08-07 21:59+0000\n"
 "PO-Revision-Date: 2025-12-14 10:45+0100\n"
 "Last-Translator: Fabian Esposito <fabian.esposito@outlook.com>\n"
 "Language-Team: Italiano\n"
@@ -1884,15 +1884,15 @@ msgstr "Color__e"
 msgid "Type to search"
 msgstr "Digitare per la ricerca"
 
-#: src/prefs.ts:75
+#: src/prefs.ts:78
 msgid "General"
 msgstr "Generale"
 
-#: src/prefs.ts:95
+#: src/prefs.ts:98
 msgid "Customization"
 msgstr "Personalizzazione"
 
-#: src/prefs.ts:112
+#: src/prefs.ts:115
 msgid "Shortcuts"
 msgstr "Scorciatoie"
 
