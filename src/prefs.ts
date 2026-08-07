@@ -11,7 +11,7 @@ import { ExtensionPreferences, gettext as _ } from 'resource:///org/gnome/Shell/
 import { loadConfig } from './lib/common/actions.js';
 import { Icon } from './lib/common/icons.js';
 import { CopyousSettings, migrateSettings } from './lib/common/settings.js';
-import { ensureLogger } from './lib/misc/compatibility.js';
+import { ensureLogger } from './lib/misc/logger.js';
 import { ActionsPage } from './lib/preferences/actions/actionsPage.js';
 import { DialogCustomization } from './lib/preferences/customization/dialogCustomization.js';
 import { HeaderCustomization } from './lib/preferences/customization/headerCustomization.js';

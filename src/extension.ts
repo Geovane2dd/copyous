@@ -13,7 +13,7 @@ import { SoundManager, tryCreateSoundManager } from './lib/common/sound.js';
 import { ClipboardEntry } from './lib/database/database.js';
 import { ClipboardEntryTracker } from './lib/database/entryTracker.js';
 import { ClipboardManager } from './lib/misc/clipboard.js';
-import { ensureLogger } from './lib/misc/compatibility.js';
+import { ensureLogger } from './lib/misc/logger.js';
 import { NotificationManager } from './lib/misc/notifications.js';
 import { ShortcutManager } from './lib/misc/shortcuts.js';
 import { ThemeManager } from './lib/misc/theme.js';
