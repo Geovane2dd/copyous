@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 22:22+0000\n"
+"POT-Creation-Date: 2026-08-07 22:40+0000\n"
 "PO-Revision-Date: 2025-12-14 10:45+0100\n"
 "Last-Translator: Fabian Esposito <fabian.esposito@outlook.com>\n"
 "Language-Team: Italiano\n"
@@ -131,7 +131,7 @@ msgstr "Nessuno"
 
 #: src/lib/preferences/actions/actionDefaults.ts:113
 #: src/lib/preferences/actions/actionDefaults.ts:128
-#: src/lib/preferences/actions/actionsPage.ts:69
+#: src/lib/preferences/actions/actionsPage.ts:70
 msgid "Default Actions"
 msgstr "Azioni predefinite"
 
@@ -208,11 +208,11 @@ msgstr "Seleziona quali tipi sono consentiti"
 
 #: src/lib/preferences/actions/actionDialog.ts:234
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:34
-#: src/lib/preferences/actions/actionsGroup.ts:33
-#: src/lib/preferences/actions/actionsPage.ts:21
-#: src/lib/preferences/actions/actionsPage.ts:34
+#: src/lib/preferences/actions/actionsGroup.ts:34
+#: src/lib/preferences/actions/actionsPage.ts:22
+#: src/lib/preferences/actions/actionsPage.ts:35
 #: src/lib/preferences/customization/items/exclusions.ts:90
-#: src/lib/preferences/dependencies/dependencies.ts:224
+#: src/lib/preferences/dependencies/dependencies.ts:225
 #: src/lib/preferences/general/appExclusionSettings.ts:171
 #: src/lib/preferences/shortcuts/shortcutRow.ts:131
 #: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:47
@@ -329,15 +329,15 @@ msgstr "Oklab"
 
 #: src/lib/preferences/actions/actionDialog.ts:655
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:73
-#: src/lib/preferences/actions/actionsGroup.ts:550
+#: src/lib/preferences/actions/actionsGroup.ts:551
 #: src/lib/preferences/customization/items/exclusions.ts:92
 #: src/lib/preferences/general/appExclusionSettings.ts:173
 msgid "Add"
 msgstr "Aggiungi"
 
 #: src/lib/preferences/actions/actionDialog.ts:655
-#: src/lib/preferences/actions/actionsGroup.ts:100
-#: src/lib/preferences/actions/actionsGroup.ts:568
+#: src/lib/preferences/actions/actionsGroup.ts:101
+#: src/lib/preferences/actions/actionsGroup.ts:569
 msgid "Add Action"
 msgstr "Aggiungi un'azione"
 
@@ -351,13 +351,13 @@ msgid "Save"
 msgstr "Salva"
 
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:73
-#: src/lib/preferences/actions/actionsGroup.ts:569
+#: src/lib/preferences/actions/actionsGroup.ts:570
 msgid "Add Submenu"
 msgstr "Aggiungi sottomenu"
 
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:80
-#: src/lib/preferences/actions/actionsGroup.ts:125
-#: src/lib/preferences/actions/actionsGroup.ts:423
+#: src/lib/preferences/actions/actionsGroup.ts:126
+#: src/lib/preferences/actions/actionsGroup.ts:424
 #: src/lib/ui/components/clipboardItemMenu.ts:94
 msgid "Edit"
 msgstr "Modifica"
@@ -366,60 +366,60 @@ msgstr "Modifica"
 msgid "Edit Submenu"
 msgstr "Modifica sottomenu"
 
-#: src/lib/preferences/actions/actionsGroup.ts:34
-#: src/lib/preferences/actions/actionsGroup.ts:126
-#: src/lib/preferences/actions/actionsGroup.ts:424
+#: src/lib/preferences/actions/actionsGroup.ts:35
+#: src/lib/preferences/actions/actionsGroup.ts:127
+#: src/lib/preferences/actions/actionsGroup.ts:425
 msgid "Delete"
 msgstr "Elimina"
 
-#: src/lib/preferences/actions/actionsGroup.ts:91
-#: src/lib/preferences/actions/actionsGroup.ts:529
+#: src/lib/preferences/actions/actionsGroup.ts:92
+#: src/lib/preferences/actions/actionsGroup.ts:530
 msgid "No Actions"
 msgstr "Nessuna azione"
 
-#: src/lib/preferences/actions/actionsGroup.ts:180
+#: src/lib/preferences/actions/actionsGroup.ts:181
 msgid "Delete Submenu?"
 msgstr "Eliminare il sottomenu?"
 
-#: src/lib/preferences/actions/actionsGroup.ts:181
+#: src/lib/preferences/actions/actionsGroup.ts:182
 msgid "Deleting the submenu will delete all actions in the submenu"
 msgstr "L'eliminazione del sottomenu eliminerà tutte le azioni nel sottomenu"
 
-#: src/lib/preferences/actions/actionsGroup.ts:446
+#: src/lib/preferences/actions/actionsGroup.ts:447
 msgid "Delete Action?"
 msgstr "Eliminare l'azione?"
 
-#: src/lib/preferences/actions/actionsGroup.ts:518
-#: src/lib/preferences/actions/actionsPage.ts:57
+#: src/lib/preferences/actions/actionsGroup.ts:519
+#: src/lib/preferences/actions/actionsPage.ts:58
 msgid "Actions"
 msgstr "Azioni"
 
-#: src/lib/preferences/actions/actionsPage.ts:22
+#: src/lib/preferences/actions/actionsPage.ts:23
 msgid "Reset"
 msgstr "Ripristina"
 
-#: src/lib/preferences/actions/actionsPage.ts:35
+#: src/lib/preferences/actions/actionsPage.ts:36
 msgid "Restore"
 msgstr "Ripristina"
 
-#: src/lib/preferences/actions/actionsPage.ts:70
+#: src/lib/preferences/actions/actionsPage.ts:71
 msgid "Set default actions that trigger when holding control"
 msgstr ""
 "Imposta le azioni predefinite che si attivano quando si tiene premuto Ctrl"
 
-#: src/lib/preferences/actions/actionsPage.ts:87
+#: src/lib/preferences/actions/actionsPage.ts:88
 msgid "Restore Built-In Actions"
 msgstr "Ripristina azioni integrate"
 
-#: src/lib/preferences/actions/actionsPage.ts:96
+#: src/lib/preferences/actions/actionsPage.ts:97
 msgid "Reset Actions"
 msgstr "Ripristina azioni"
 
-#: src/lib/preferences/actions/actionsPage.ts:116
+#: src/lib/preferences/actions/actionsPage.ts:117
 msgid "Restore Built-In Actions?"
 msgstr "Ripristinare le azioni integrate?"
 
-#: src/lib/preferences/actions/actionsPage.ts:118
+#: src/lib/preferences/actions/actionsPage.ts:119
 msgid ""
 "Restoring the built-in actions will restore built-in actions that were "
 "removed. Custom actions will remain unchanged"
@@ -427,11 +427,11 @@ msgstr ""
 "Il ripristino delle azioni integrate ripristinerà le azioni integrate che "
 "sono state rimosse. Le azioni personalizzate rimarranno invariate"
 
-#: src/lib/preferences/actions/actionsPage.ts:135
+#: src/lib/preferences/actions/actionsPage.ts:136
 msgid "Reset Actions?"
 msgstr "Ripristinare le azioni?"
 
-#: src/lib/preferences/actions/actionsPage.ts:136
+#: src/lib/preferences/actions/actionsPage.ts:137
 msgid "Resetting the actions will delete all custom actions"
 msgstr "Il ripristino delle azioni eliminerà tutte le azioni personalizzate"
 
@@ -1129,12 +1129,12 @@ msgstr "Colore della ricerca"
 msgid "Set the background color of the search bar"
 msgstr "Imposta il colore di sfondo della barra di ricerca"
 
-#: src/lib/preferences/dependencies/dependencies.ts:153
-#: src/lib/preferences/dependencies/dependencies.ts:440
+#: src/lib/preferences/dependencies/dependencies.ts:154
+#: src/lib/preferences/dependencies/dependencies.ts:439
 msgid "Libgda Not Installed"
 msgstr "Libgda non installato"
 
-#: src/lib/preferences/dependencies/dependencies.ts:155
+#: src/lib/preferences/dependencies/dependencies.ts:156
 msgid ""
 "Libgda is required to store clipboard history between sessions. Install "
 "either libgda 5.0 or 6.0 with SQLite support to use this feature. After "
@@ -1145,26 +1145,26 @@ msgstr ""
 "questa funzione. Dopo l'installazione di libgda, dovrai disconnetterti o "
 "riavviare il sistema."
 
-#: src/lib/preferences/dependencies/dependencies.ts:159
+#: src/lib/preferences/dependencies/dependencies.ts:160
 msgid "Install Libgda"
 msgstr "Installa Libgda"
 
-#: src/lib/preferences/dependencies/dependencies.ts:172
-#: src/lib/preferences/dependencies/dependencies.ts:442
+#: src/lib/preferences/dependencies/dependencies.ts:173
+#: src/lib/preferences/dependencies/dependencies.ts:441
 msgid "Highlight.js Not Installed"
 msgstr "Highlight.js non installato"
 
-#: src/lib/preferences/dependencies/dependencies.ts:173
+#: src/lib/preferences/dependencies/dependencies.ts:174
 msgid "Highlight.js is required to display syntax highlighted code."
 msgstr ""
 "Highlight.js è necessario per visualizzare il codice con evidenziazione "
 "della sintassi."
 
-#: src/lib/preferences/dependencies/dependencies.ts:177
+#: src/lib/preferences/dependencies/dependencies.ts:178
 msgid "Manual Installation"
 msgstr "Installazione manuale"
 
-#: src/lib/preferences/dependencies/dependencies.ts:191
+#: src/lib/preferences/dependencies/dependencies.ts:192
 msgid ""
 "You can manually install highlight.js by downloading highlight.min.js from "
 "\"Url\" to \"Install Location\"."
@@ -1172,24 +1172,24 @@ msgstr ""
 "Puoi installare manualmente highlight.js scaricando highlight.min.js da "
 "\"Url\" a \"Percorso di installazione\"."
 
-#: src/lib/preferences/dependencies/dependencies.ts:208
+#: src/lib/preferences/dependencies/dependencies.ts:209
 msgid "Url"
 msgstr "URL"
 
-#: src/lib/preferences/dependencies/dependencies.ts:217
+#: src/lib/preferences/dependencies/dependencies.ts:218
 msgid "Install Location"
 msgstr "Posizione di installazione"
 
-#: src/lib/preferences/dependencies/dependencies.ts:226
+#: src/lib/preferences/dependencies/dependencies.ts:227
 msgid "Install"
 msgstr "Installa"
 
-#: src/lib/preferences/dependencies/dependencies.ts:355
-#: src/lib/preferences/dependencies/dependencies.ts:441
+#: src/lib/preferences/dependencies/dependencies.ts:356
+#: src/lib/preferences/dependencies/dependencies.ts:440
 msgid "GSound Not Installed"
 msgstr "GSound non installato"
 
-#: src/lib/preferences/dependencies/dependencies.ts:357
+#: src/lib/preferences/dependencies/dependencies.ts:358
 msgid ""
 "GSound is required to play sound effects. Install GSound to use this "
 "feature. After installing GSound you will need to log out or restart your "
@@ -1199,61 +1199,61 @@ msgstr ""
 "utilizzare questa funzione. Dopo l'installazione di GSound, dovrai "
 "disconnetterti o riavviare il sistema."
 
-#: src/lib/preferences/dependencies/dependencies.ts:360
+#: src/lib/preferences/dependencies/dependencies.ts:361
 msgid "Install GSound"
 msgstr "Installa GSound"
 
-#: src/lib/preferences/dependencies/dependencies.ts:373
+#: src/lib/preferences/dependencies/dependencies.ts:374
 msgid "Starting Highlight.js Download"
 msgstr "Avvio del download di Highlight.js"
 
-#: src/lib/preferences/dependencies/dependencies.ts:393
+#: src/lib/preferences/dependencies/dependencies.ts:392
 msgid "Error Installing Highlight.js"
 msgstr "Errore durante l'installazione di Highlight.js"
 
-#: src/lib/preferences/dependencies/dependencies.ts:393
+#: src/lib/preferences/dependencies/dependencies.ts:392
 msgid "Successfully Installed Highlight.js"
 msgstr "Highlight.js installato con successo"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:240
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:241
 #, javascript-format
 msgid "Successfully Installed %s"
 msgstr "%s installato con successo"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:241
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:242
 #, javascript-format
 msgid "Error Installing %s"
 msgstr "Errore durante l'installazione di %s"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:261
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:262
 #, javascript-format
 msgid "Successfully Uninstalled %s"
 msgstr "%s disinstallato con successo"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:262
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:263
 #, javascript-format
 msgid "Error Uninstalling %s"
 msgstr "Errore durante la disinstallazione di %s"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:288
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:382
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:289
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:383
 msgid "Manage Highlight.js"
 msgstr "Gestisci Highlight.js"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:300
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:301
 msgid "Languages"
 msgstr "Lingue"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:321
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:322
 #: src/lib/preferences/shortcuts/searchShortcuts.ts:49
 msgid "Search"
 msgstr "Ricerca"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:375
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:376
 msgid "Dependencies"
 msgstr "Dipendenze"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:383
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:384
 msgid "Manage the Highlight.js installation"
 msgstr "Gestisci l'installazione di Highlight.js"
 

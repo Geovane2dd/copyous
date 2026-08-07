@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 22:22+0000\n"
+"POT-Creation-Date: 2026-08-07 22:40+0000\n"
 "PO-Revision-Date: 2025-12-19 18:30+0800\n"
 "Last-Translator: everyx <lunt.luo@gmail.com>\n"
 "Language-Team: Chinese (China)\n"
@@ -132,7 +132,7 @@ msgstr "无"
 
 #: src/lib/preferences/actions/actionDefaults.ts:113
 #: src/lib/preferences/actions/actionDefaults.ts:128
-#: src/lib/preferences/actions/actionsPage.ts:69
+#: src/lib/preferences/actions/actionsPage.ts:70
 msgid "Default Actions"
 msgstr "默认动作"
 
@@ -209,11 +209,11 @@ msgstr "选择哪些类型被允许"
 
 #: src/lib/preferences/actions/actionDialog.ts:234
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:34
-#: src/lib/preferences/actions/actionsGroup.ts:33
-#: src/lib/preferences/actions/actionsPage.ts:21
-#: src/lib/preferences/actions/actionsPage.ts:34
+#: src/lib/preferences/actions/actionsGroup.ts:34
+#: src/lib/preferences/actions/actionsPage.ts:22
+#: src/lib/preferences/actions/actionsPage.ts:35
 #: src/lib/preferences/customization/items/exclusions.ts:90
-#: src/lib/preferences/dependencies/dependencies.ts:224
+#: src/lib/preferences/dependencies/dependencies.ts:225
 #: src/lib/preferences/general/appExclusionSettings.ts:171
 #: src/lib/preferences/shortcuts/shortcutRow.ts:131
 #: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:47
@@ -327,15 +327,15 @@ msgstr "Oklab"
 
 #: src/lib/preferences/actions/actionDialog.ts:655
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:73
-#: src/lib/preferences/actions/actionsGroup.ts:550
+#: src/lib/preferences/actions/actionsGroup.ts:551
 #: src/lib/preferences/customization/items/exclusions.ts:92
 #: src/lib/preferences/general/appExclusionSettings.ts:173
 msgid "Add"
 msgstr "添加"
 
 #: src/lib/preferences/actions/actionDialog.ts:655
-#: src/lib/preferences/actions/actionsGroup.ts:100
-#: src/lib/preferences/actions/actionsGroup.ts:568
+#: src/lib/preferences/actions/actionsGroup.ts:101
+#: src/lib/preferences/actions/actionsGroup.ts:569
 msgid "Add Action"
 msgstr "增加动作"
 
@@ -349,13 +349,13 @@ msgid "Save"
 msgstr "保存"
 
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:73
-#: src/lib/preferences/actions/actionsGroup.ts:569
+#: src/lib/preferences/actions/actionsGroup.ts:570
 msgid "Add Submenu"
 msgstr "添加子菜单"
 
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:80
-#: src/lib/preferences/actions/actionsGroup.ts:125
-#: src/lib/preferences/actions/actionsGroup.ts:423
+#: src/lib/preferences/actions/actionsGroup.ts:126
+#: src/lib/preferences/actions/actionsGroup.ts:424
 #: src/lib/ui/components/clipboardItemMenu.ts:94
 msgid "Edit"
 msgstr "编辑"
@@ -364,69 +364,69 @@ msgstr "编辑"
 msgid "Edit Submenu"
 msgstr "编辑子菜单"
 
-#: src/lib/preferences/actions/actionsGroup.ts:34
-#: src/lib/preferences/actions/actionsGroup.ts:126
-#: src/lib/preferences/actions/actionsGroup.ts:424
+#: src/lib/preferences/actions/actionsGroup.ts:35
+#: src/lib/preferences/actions/actionsGroup.ts:127
+#: src/lib/preferences/actions/actionsGroup.ts:425
 msgid "Delete"
 msgstr "删除"
 
-#: src/lib/preferences/actions/actionsGroup.ts:91
-#: src/lib/preferences/actions/actionsGroup.ts:529
+#: src/lib/preferences/actions/actionsGroup.ts:92
+#: src/lib/preferences/actions/actionsGroup.ts:530
 msgid "No Actions"
 msgstr "无动作"
 
-#: src/lib/preferences/actions/actionsGroup.ts:180
+#: src/lib/preferences/actions/actionsGroup.ts:181
 msgid "Delete Submenu?"
 msgstr "删除子菜单吗？"
 
-#: src/lib/preferences/actions/actionsGroup.ts:181
+#: src/lib/preferences/actions/actionsGroup.ts:182
 msgid "Deleting the submenu will delete all actions in the submenu"
 msgstr "删除子菜单将删除该子菜单下的所有动作"
 
-#: src/lib/preferences/actions/actionsGroup.ts:446
+#: src/lib/preferences/actions/actionsGroup.ts:447
 msgid "Delete Action?"
 msgstr "删除动作？"
 
-#: src/lib/preferences/actions/actionsGroup.ts:518
-#: src/lib/preferences/actions/actionsPage.ts:57
+#: src/lib/preferences/actions/actionsGroup.ts:519
+#: src/lib/preferences/actions/actionsPage.ts:58
 msgid "Actions"
 msgstr "动作"
 
-#: src/lib/preferences/actions/actionsPage.ts:22
+#: src/lib/preferences/actions/actionsPage.ts:23
 msgid "Reset"
 msgstr "重置"
 
-#: src/lib/preferences/actions/actionsPage.ts:35
+#: src/lib/preferences/actions/actionsPage.ts:36
 msgid "Restore"
 msgstr "恢复"
 
-#: src/lib/preferences/actions/actionsPage.ts:70
+#: src/lib/preferences/actions/actionsPage.ts:71
 msgid "Set default actions that trigger when holding control"
 msgstr "设置按住 Control 键时触发的默认操作"
 
-#: src/lib/preferences/actions/actionsPage.ts:87
+#: src/lib/preferences/actions/actionsPage.ts:88
 msgid "Restore Built-In Actions"
 msgstr "恢复内置动作"
 
-#: src/lib/preferences/actions/actionsPage.ts:96
+#: src/lib/preferences/actions/actionsPage.ts:97
 msgid "Reset Actions"
 msgstr "重置动作"
 
-#: src/lib/preferences/actions/actionsPage.ts:116
+#: src/lib/preferences/actions/actionsPage.ts:117
 msgid "Restore Built-In Actions?"
 msgstr "恢复内置动作吗？"
 
-#: src/lib/preferences/actions/actionsPage.ts:118
+#: src/lib/preferences/actions/actionsPage.ts:119
 msgid ""
 "Restoring the built-in actions will restore built-in actions that were "
 "removed. Custom actions will remain unchanged"
 msgstr "恢复内置操作将还原已删除的内置操作。自定义操作将保持不变。"
 
-#: src/lib/preferences/actions/actionsPage.ts:135
+#: src/lib/preferences/actions/actionsPage.ts:136
 msgid "Reset Actions?"
 msgstr "重置动作"
 
-#: src/lib/preferences/actions/actionsPage.ts:136
+#: src/lib/preferences/actions/actionsPage.ts:137
 msgid "Resetting the actions will delete all custom actions"
 msgstr "重置动作将删除所有自定义动作"
 
@@ -1107,12 +1107,12 @@ msgstr "搜索框颜色"
 msgid "Set the background color of the search bar"
 msgstr "设置搜索栏的背景颜色"
 
-#: src/lib/preferences/dependencies/dependencies.ts:153
-#: src/lib/preferences/dependencies/dependencies.ts:440
+#: src/lib/preferences/dependencies/dependencies.ts:154
+#: src/lib/preferences/dependencies/dependencies.ts:439
 msgid "Libgda Not Installed"
 msgstr "Libgda 未安装"
 
-#: src/lib/preferences/dependencies/dependencies.ts:155
+#: src/lib/preferences/dependencies/dependencies.ts:156
 msgid ""
 "Libgda is required to store clipboard history between sessions. Install "
 "either libgda 5.0 or 6.0 with SQLite support to use this feature. After "
@@ -1121,48 +1121,48 @@ msgstr ""
 "跨会话存储剪贴板历史记录需要 libgda。请安装支持 SQLite 的 libgda 5.0 或 6.0 "
 "以使用此功能。安装 libgda 后，您需要注销或重启系统。"
 
-#: src/lib/preferences/dependencies/dependencies.ts:159
+#: src/lib/preferences/dependencies/dependencies.ts:160
 msgid "Install Libgda"
 msgstr "安装 Libgda"
 
-#: src/lib/preferences/dependencies/dependencies.ts:172
-#: src/lib/preferences/dependencies/dependencies.ts:442
+#: src/lib/preferences/dependencies/dependencies.ts:173
+#: src/lib/preferences/dependencies/dependencies.ts:441
 msgid "Highlight.js Not Installed"
 msgstr "Highlight.js 未安装"
 
-#: src/lib/preferences/dependencies/dependencies.ts:173
+#: src/lib/preferences/dependencies/dependencies.ts:174
 msgid "Highlight.js is required to display syntax highlighted code."
 msgstr "需要 Highlight.js 来显示代码语法高亮。"
 
-#: src/lib/preferences/dependencies/dependencies.ts:177
+#: src/lib/preferences/dependencies/dependencies.ts:178
 msgid "Manual Installation"
 msgstr "手动安装"
 
-#: src/lib/preferences/dependencies/dependencies.ts:191
+#: src/lib/preferences/dependencies/dependencies.ts:192
 msgid ""
 "You can manually install highlight.js by downloading highlight.min.js from "
 "\"Url\" to \"Install Location\"."
 msgstr ""
 "您可以从“网址”下载 highlight.min.js 到“安装位置”来手动安装 highlight.js。"
 
-#: src/lib/preferences/dependencies/dependencies.ts:208
+#: src/lib/preferences/dependencies/dependencies.ts:209
 msgid "Url"
 msgstr "网址"
 
-#: src/lib/preferences/dependencies/dependencies.ts:217
+#: src/lib/preferences/dependencies/dependencies.ts:218
 msgid "Install Location"
 msgstr "安装位置"
 
-#: src/lib/preferences/dependencies/dependencies.ts:226
+#: src/lib/preferences/dependencies/dependencies.ts:227
 msgid "Install"
 msgstr "安装"
 
-#: src/lib/preferences/dependencies/dependencies.ts:355
-#: src/lib/preferences/dependencies/dependencies.ts:441
+#: src/lib/preferences/dependencies/dependencies.ts:356
+#: src/lib/preferences/dependencies/dependencies.ts:440
 msgid "GSound Not Installed"
 msgstr "GSound 未安装"
 
-#: src/lib/preferences/dependencies/dependencies.ts:357
+#: src/lib/preferences/dependencies/dependencies.ts:358
 msgid ""
 "GSound is required to play sound effects. Install GSound to use this "
 "feature. After installing GSound you will need to log out or restart your "
@@ -1171,61 +1171,61 @@ msgstr ""
 "播放音效需要安装 GSound。请安装 GSound 以使用此功能。安装完成后，您需要注销或"
 "重启系统。"
 
-#: src/lib/preferences/dependencies/dependencies.ts:360
+#: src/lib/preferences/dependencies/dependencies.ts:361
 msgid "Install GSound"
 msgstr "安装 GSound"
 
-#: src/lib/preferences/dependencies/dependencies.ts:373
+#: src/lib/preferences/dependencies/dependencies.ts:374
 msgid "Starting Highlight.js Download"
 msgstr "开始下载 Highlight.js"
 
-#: src/lib/preferences/dependencies/dependencies.ts:393
+#: src/lib/preferences/dependencies/dependencies.ts:392
 msgid "Error Installing Highlight.js"
 msgstr "安装 Highlight.js 时出错"
 
-#: src/lib/preferences/dependencies/dependencies.ts:393
+#: src/lib/preferences/dependencies/dependencies.ts:392
 msgid "Successfully Installed Highlight.js"
 msgstr "安装 Highlight.js 成功"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:240
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:241
 #, javascript-format
 msgid "Successfully Installed %s"
 msgstr "已成功安装 %s"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:241
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:242
 #, javascript-format
 msgid "Error Installing %s"
 msgstr "安装 %s 时出错"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:261
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:262
 #, javascript-format
 msgid "Successfully Uninstalled %s"
 msgstr "卸载 %s 成功"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:262
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:263
 #, javascript-format
 msgid "Error Uninstalling %s"
 msgstr "卸载 %s 出错"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:288
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:382
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:289
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:383
 msgid "Manage Highlight.js"
 msgstr "管理 Highlight.js"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:300
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:301
 msgid "Languages"
 msgstr "语言"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:321
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:322
 #: src/lib/preferences/shortcuts/searchShortcuts.ts:49
 msgid "Search"
 msgstr "搜索"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:375
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:376
 msgid "Dependencies"
 msgstr "依赖项"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:383
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:384
 msgid "Manage the Highlight.js installation"
 msgstr "管理 Highlight.js 的安装"
 

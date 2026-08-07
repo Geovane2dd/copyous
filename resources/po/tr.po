@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 22:22+0000\n"
+"POT-Creation-Date: 2026-08-07 22:40+0000\n"
 "PO-Revision-Date: 2026-03-18 07:29+0300\n"
 "Last-Translator: Muha Aliss <muhaaliss@pm.me>\n"
 "Language-Team: Turkish\n"
@@ -133,7 +133,7 @@ msgstr "Hiçbiri"
 
 #: src/lib/preferences/actions/actionDefaults.ts:113
 #: src/lib/preferences/actions/actionDefaults.ts:128
-#: src/lib/preferences/actions/actionsPage.ts:69
+#: src/lib/preferences/actions/actionsPage.ts:70
 msgid "Default Actions"
 msgstr "Varsayılan Eylemler"
 
@@ -210,11 +210,11 @@ msgstr "Hangi türlere izin verileceğini seç"
 
 #: src/lib/preferences/actions/actionDialog.ts:234
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:34
-#: src/lib/preferences/actions/actionsGroup.ts:33
-#: src/lib/preferences/actions/actionsPage.ts:21
-#: src/lib/preferences/actions/actionsPage.ts:34
+#: src/lib/preferences/actions/actionsGroup.ts:34
+#: src/lib/preferences/actions/actionsPage.ts:22
+#: src/lib/preferences/actions/actionsPage.ts:35
 #: src/lib/preferences/customization/items/exclusions.ts:90
-#: src/lib/preferences/dependencies/dependencies.ts:224
+#: src/lib/preferences/dependencies/dependencies.ts:225
 #: src/lib/preferences/general/appExclusionSettings.ts:171
 #: src/lib/preferences/shortcuts/shortcutRow.ts:131
 #: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:47
@@ -330,15 +330,15 @@ msgstr "Oklab"
 
 #: src/lib/preferences/actions/actionDialog.ts:655
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:73
-#: src/lib/preferences/actions/actionsGroup.ts:550
+#: src/lib/preferences/actions/actionsGroup.ts:551
 #: src/lib/preferences/customization/items/exclusions.ts:92
 #: src/lib/preferences/general/appExclusionSettings.ts:173
 msgid "Add"
 msgstr "Ekle"
 
 #: src/lib/preferences/actions/actionDialog.ts:655
-#: src/lib/preferences/actions/actionsGroup.ts:100
-#: src/lib/preferences/actions/actionsGroup.ts:568
+#: src/lib/preferences/actions/actionsGroup.ts:101
+#: src/lib/preferences/actions/actionsGroup.ts:569
 msgid "Add Action"
 msgstr "Eylem Ekle"
 
@@ -352,13 +352,13 @@ msgid "Save"
 msgstr "Kaydet"
 
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:73
-#: src/lib/preferences/actions/actionsGroup.ts:569
+#: src/lib/preferences/actions/actionsGroup.ts:570
 msgid "Add Submenu"
 msgstr "Alt Menü Ekle"
 
 #: src/lib/preferences/actions/actionSubMenuDialog.ts:80
-#: src/lib/preferences/actions/actionsGroup.ts:125
-#: src/lib/preferences/actions/actionsGroup.ts:423
+#: src/lib/preferences/actions/actionsGroup.ts:126
+#: src/lib/preferences/actions/actionsGroup.ts:424
 #: src/lib/ui/components/clipboardItemMenu.ts:94
 msgid "Edit"
 msgstr "Düzenle"
@@ -367,60 +367,60 @@ msgstr "Düzenle"
 msgid "Edit Submenu"
 msgstr "Alt Menüyü Düzenle"
 
-#: src/lib/preferences/actions/actionsGroup.ts:34
-#: src/lib/preferences/actions/actionsGroup.ts:126
-#: src/lib/preferences/actions/actionsGroup.ts:424
+#: src/lib/preferences/actions/actionsGroup.ts:35
+#: src/lib/preferences/actions/actionsGroup.ts:127
+#: src/lib/preferences/actions/actionsGroup.ts:425
 msgid "Delete"
 msgstr "Sil"
 
-#: src/lib/preferences/actions/actionsGroup.ts:91
-#: src/lib/preferences/actions/actionsGroup.ts:529
+#: src/lib/preferences/actions/actionsGroup.ts:92
+#: src/lib/preferences/actions/actionsGroup.ts:530
 msgid "No Actions"
 msgstr "Eylem Yok"
 
-#: src/lib/preferences/actions/actionsGroup.ts:180
+#: src/lib/preferences/actions/actionsGroup.ts:181
 msgid "Delete Submenu?"
 msgstr "Alt Menü Silinsin mi?"
 
-#: src/lib/preferences/actions/actionsGroup.ts:181
+#: src/lib/preferences/actions/actionsGroup.ts:182
 msgid "Deleting the submenu will delete all actions in the submenu"
 msgstr "Alt menüyü silmek, alt menüdeki tüm eylemleri silecektir."
 
-#: src/lib/preferences/actions/actionsGroup.ts:446
+#: src/lib/preferences/actions/actionsGroup.ts:447
 msgid "Delete Action?"
 msgstr "Eylem Silinsin mi?"
 
-#: src/lib/preferences/actions/actionsGroup.ts:518
-#: src/lib/preferences/actions/actionsPage.ts:57
+#: src/lib/preferences/actions/actionsGroup.ts:519
+#: src/lib/preferences/actions/actionsPage.ts:58
 msgid "Actions"
 msgstr "Eylemler"
 
-#: src/lib/preferences/actions/actionsPage.ts:22
+#: src/lib/preferences/actions/actionsPage.ts:23
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: src/lib/preferences/actions/actionsPage.ts:35
+#: src/lib/preferences/actions/actionsPage.ts:36
 msgid "Restore"
 msgstr "Geri Yükle"
 
-#: src/lib/preferences/actions/actionsPage.ts:70
+#: src/lib/preferences/actions/actionsPage.ts:71
 msgid "Set default actions that trigger when holding control"
 msgstr ""
 "Kontrol tuşuna basılı tutulduğunda tetiklenen varsayılan eylemleri ayarla"
 
-#: src/lib/preferences/actions/actionsPage.ts:87
+#: src/lib/preferences/actions/actionsPage.ts:88
 msgid "Restore Built-In Actions"
 msgstr "Yerleşik Eylemleri Geri Yükle"
 
-#: src/lib/preferences/actions/actionsPage.ts:96
+#: src/lib/preferences/actions/actionsPage.ts:97
 msgid "Reset Actions"
 msgstr "Eylemleri Sıfırla"
 
-#: src/lib/preferences/actions/actionsPage.ts:116
+#: src/lib/preferences/actions/actionsPage.ts:117
 msgid "Restore Built-In Actions?"
 msgstr "Yerleşik Eylemler Geri Yüklensin mi?"
 
-#: src/lib/preferences/actions/actionsPage.ts:118
+#: src/lib/preferences/actions/actionsPage.ts:119
 msgid ""
 "Restoring the built-in actions will restore built-in actions that were "
 "removed. Custom actions will remain unchanged"
@@ -428,11 +428,11 @@ msgstr ""
 "Yerleşik eylemleri geri yüklemek, kaldırılan yerleşik eylemleri geri "
 "getirecektir. Özel eylemler değişmeden kalacaktır"
 
-#: src/lib/preferences/actions/actionsPage.ts:135
+#: src/lib/preferences/actions/actionsPage.ts:136
 msgid "Reset Actions?"
 msgstr "Eylemler Sıfırlansın mı?"
 
-#: src/lib/preferences/actions/actionsPage.ts:136
+#: src/lib/preferences/actions/actionsPage.ts:137
 msgid "Resetting the actions will delete all custom actions"
 msgstr "Eylemleri sıfırlamak tüm özel eylemleri silecektir."
 
@@ -1123,12 +1123,12 @@ msgstr "Arama Rengi"
 msgid "Set the background color of the search bar"
 msgstr "Arama çubuğunun arka plan rengini ayarla"
 
-#: src/lib/preferences/dependencies/dependencies.ts:153
-#: src/lib/preferences/dependencies/dependencies.ts:440
+#: src/lib/preferences/dependencies/dependencies.ts:154
+#: src/lib/preferences/dependencies/dependencies.ts:439
 msgid "Libgda Not Installed"
 msgstr "Libgda Kurulu Değil"
 
-#: src/lib/preferences/dependencies/dependencies.ts:155
+#: src/lib/preferences/dependencies/dependencies.ts:156
 msgid ""
 "Libgda is required to store clipboard history between sessions. Install "
 "either libgda 5.0 or 6.0 with SQLite support to use this feature. After "
@@ -1139,24 +1139,24 @@ msgstr ""
 "Libgda kurduktan sonra oturumu kapatman veya sistemi yeniden başlatman "
 "gerekecek."
 
-#: src/lib/preferences/dependencies/dependencies.ts:159
+#: src/lib/preferences/dependencies/dependencies.ts:160
 msgid "Install Libgda"
 msgstr "Libgda Kur"
 
-#: src/lib/preferences/dependencies/dependencies.ts:172
-#: src/lib/preferences/dependencies/dependencies.ts:442
+#: src/lib/preferences/dependencies/dependencies.ts:173
+#: src/lib/preferences/dependencies/dependencies.ts:441
 msgid "Highlight.js Not Installed"
 msgstr "Highlight.js Kurulu Değil"
 
-#: src/lib/preferences/dependencies/dependencies.ts:173
+#: src/lib/preferences/dependencies/dependencies.ts:174
 msgid "Highlight.js is required to display syntax highlighted code."
 msgstr "Sözdizimi vurgulu kodları görüntülemek için Highlight.js gereklidir."
 
-#: src/lib/preferences/dependencies/dependencies.ts:177
+#: src/lib/preferences/dependencies/dependencies.ts:178
 msgid "Manual Installation"
 msgstr "Elle Kurulum"
 
-#: src/lib/preferences/dependencies/dependencies.ts:191
+#: src/lib/preferences/dependencies/dependencies.ts:192
 msgid ""
 "You can manually install highlight.js by downloading highlight.min.js from "
 "\"Url\" to \"Install Location\"."
@@ -1164,24 +1164,24 @@ msgstr ""
 "Highlight.js'yi \"Adres\" üzerinden \"Kurulum Konumu\"na indirerek elle "
 "kurabilirsin."
 
-#: src/lib/preferences/dependencies/dependencies.ts:208
+#: src/lib/preferences/dependencies/dependencies.ts:209
 msgid "Url"
 msgstr "Adres"
 
-#: src/lib/preferences/dependencies/dependencies.ts:217
+#: src/lib/preferences/dependencies/dependencies.ts:218
 msgid "Install Location"
 msgstr "Kurulum Konumu"
 
-#: src/lib/preferences/dependencies/dependencies.ts:226
+#: src/lib/preferences/dependencies/dependencies.ts:227
 msgid "Install"
 msgstr "Kur"
 
-#: src/lib/preferences/dependencies/dependencies.ts:355
-#: src/lib/preferences/dependencies/dependencies.ts:441
+#: src/lib/preferences/dependencies/dependencies.ts:356
+#: src/lib/preferences/dependencies/dependencies.ts:440
 msgid "GSound Not Installed"
 msgstr "GSound Kurulu Değil"
 
-#: src/lib/preferences/dependencies/dependencies.ts:357
+#: src/lib/preferences/dependencies/dependencies.ts:358
 msgid ""
 "GSound is required to play sound effects. Install GSound to use this "
 "feature. After installing GSound you will need to log out or restart your "
@@ -1191,61 +1191,61 @@ msgstr ""
 "GSound kur. GSound kurduktan sonra oturumu kapatman veya sistemi yeniden "
 "başlatman gerekecek."
 
-#: src/lib/preferences/dependencies/dependencies.ts:360
+#: src/lib/preferences/dependencies/dependencies.ts:361
 msgid "Install GSound"
 msgstr "GSound Kur"
 
-#: src/lib/preferences/dependencies/dependencies.ts:373
+#: src/lib/preferences/dependencies/dependencies.ts:374
 msgid "Starting Highlight.js Download"
 msgstr "Highlight.js İndirmesi Başlatılıyor"
 
-#: src/lib/preferences/dependencies/dependencies.ts:393
+#: src/lib/preferences/dependencies/dependencies.ts:392
 msgid "Error Installing Highlight.js"
 msgstr "Highlight.js Kurulurken Hata Oluştu"
 
-#: src/lib/preferences/dependencies/dependencies.ts:393
+#: src/lib/preferences/dependencies/dependencies.ts:392
 msgid "Successfully Installed Highlight.js"
 msgstr "Highlight.js Başarıyla Kuruldu"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:240
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:241
 #, javascript-format
 msgid "Successfully Installed %s"
 msgstr "%s Başarıyla Kuruldu"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:241
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:242
 #, javascript-format
 msgid "Error Installing %s"
 msgstr "%s Kurulurken Hata Oluştu"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:261
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:262
 #, javascript-format
 msgid "Successfully Uninstalled %s"
 msgstr "%s Başarıyla Kaldırıldı"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:262
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:263
 #, javascript-format
 msgid "Error Uninstalling %s"
 msgstr "%s Kaldırılırken Hata Oluştu"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:288
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:382
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:289
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:383
 msgid "Manage Highlight.js"
 msgstr "Highlight.js'yi Yönet"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:300
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:301
 msgid "Languages"
 msgstr "Diller"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:321
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:322
 #: src/lib/preferences/shortcuts/searchShortcuts.ts:49
 msgid "Search"
 msgstr "Ara"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:375
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:376
 msgid "Dependencies"
 msgstr "Bağımlılıklar"
 
-#: src/lib/preferences/dependencies/dependenciesSettings.ts:383
+#: src/lib/preferences/dependencies/dependenciesSettings.ts:384
 msgid "Manage the Highlight.js installation"
 msgstr "Highlight.js kurulumunu yönet"
 
