@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-08 11:59+0000\n"
+"POT-Creation-Date: 2026-08-08 13:02+0000\n"
 "PO-Revision-Date: 2025-11-30 20:29+0700\n"
 "Last-Translator: Victor <firephantom303@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -1698,7 +1698,7 @@ msgstr "Задать сочетание клавиш"
 msgid "Disable Shortcut"
 msgstr "Отключить сочетание клавиш"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:229
+#: src/lib/preferences/shortcuts/shortcutRow.ts:234
 msgid "Disabled"
 msgstr "Отключено"
 
@@ -1817,11 +1817,11 @@ msgstr "Без заголовка"
 msgid "No Description"
 msgstr "Без описания"
 
-#: src/lib/ui/items/statusItem.ts:73 src/lib/ui/items/statusItem.ts:107
+#: src/lib/ui/items/statusItem.ts:75 src/lib/ui/items/statusItem.ts:109
 msgid "Clipboard is Empty"
 msgstr "Буфер обмена пуст"
 
-#: src/lib/ui/items/statusItem.ts:110
+#: src/lib/ui/items/statusItem.ts:112
 msgid "No Items Found"
 msgstr "Элементы не найдены"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-08 11:59+0000\n"
+"POT-Creation-Date: 2026-08-08 13:02+0000\n"
 "PO-Revision-Date: 2026-04-30 18:05+0200\n"
 "Last-Translator: Adam Lewicki <a.lewicki95@gmail.com>\n"
 "Language-Team: \n"
@@ -1714,7 +1714,7 @@ msgstr "Ustaw skrót klawiszowy"
 msgid "Disable Shortcut"
 msgstr "Wyłącz skrót klawiszowy"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:229
+#: src/lib/preferences/shortcuts/shortcutRow.ts:234
 msgid "Disabled"
 msgstr "Wyłączono"
 
@@ -1833,11 +1833,11 @@ msgstr "Brak tytułu"
 msgid "No Description"
 msgstr "Brak opisu"
 
-#: src/lib/ui/items/statusItem.ts:73 src/lib/ui/items/statusItem.ts:107
+#: src/lib/ui/items/statusItem.ts:75 src/lib/ui/items/statusItem.ts:109
 msgid "Clipboard is Empty"
 msgstr "Schowek jest pusty"
 
-#: src/lib/ui/items/statusItem.ts:110
+#: src/lib/ui/items/statusItem.ts:112
 msgid "No Items Found"
 msgstr "Nie znaleziono elementów"
 

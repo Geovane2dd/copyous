@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-08 11:59+0000\n"
+"POT-Creation-Date: 2026-08-08 13:02+0000\n"
 "PO-Revision-Date: 2026-03-26 22:19+0100\n"
 "Last-Translator: Christian Lauinger <christian@lauinger-clan.de>\n"
 "Language-Team: \n"
@@ -1728,7 +1728,7 @@ msgstr "Tastenkürzel setzen"
 msgid "Disable Shortcut"
 msgstr "Tastenkürzel deaktivieren"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:229
+#: src/lib/preferences/shortcuts/shortcutRow.ts:234
 msgid "Disabled"
 msgstr "Deaktiviert"
 
@@ -1841,11 +1841,11 @@ msgstr "Kein Titel"
 msgid "No Description"
 msgstr "Keine Beschreibung"
 
-#: src/lib/ui/items/statusItem.ts:73 src/lib/ui/items/statusItem.ts:107
+#: src/lib/ui/items/statusItem.ts:75 src/lib/ui/items/statusItem.ts:109
 msgid "Clipboard is Empty"
 msgstr "Zwischenablage ist leer"
 
-#: src/lib/ui/items/statusItem.ts:110
+#: src/lib/ui/items/statusItem.ts:112
 msgid "No Items Found"
 msgstr "Keine Elemente gefunden"
 
