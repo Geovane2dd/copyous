@@ -107,6 +107,7 @@ class ShortcutDialog extends Adw.Dialog {
 			margin_bottom: 12,
 			spacing: 6,
 			can_focus: true,
+			focusable: true,
 		});
 		this._box = box;
 		view.set_content(box);
@@ -279,7 +280,10 @@ export class ShortcutRow extends Adw.ActionRow {
 			dialog.connect('closed', () => {
 				if (window) window.search_enabled = searchWasEnabled;
 			});
-			dialog.present(this);
+			// Present anchored to the window itself, not the row: on GNOME 46's libadwaita 1.5
+			// (the first release with Adw.Dialog), presenting from a deeply-nested descendant
+			// widget seems to prevent the dialog from ever taking keyboard focus.
+			dialog.present(window ?? this);
 		}
 	}
 }
