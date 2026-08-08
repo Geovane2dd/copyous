@@ -73,6 +73,7 @@ class ShortcutDialog extends Adw.Dialog {
 	private _shortcutsInhibited: boolean;
 	private readonly _controller: Gtk.EventControllerKey;
 	private readonly _box: Gtk.Box;
+	private _focusRetryId: number = 0;
 
 	constructor() {
 		super({
@@ -173,14 +174,20 @@ class ShortcutDialog extends Adw.Dialog {
 		super.vfunc_map();
 
 		// Explicitly grab focus onto the dialog's own content. Without this, on some libadwaita
-		// versions the dialog can end up mapped without ever moving focus off whatever was
-		// focused in the parent window (e.g. the preferences search entry), so our CAPTURE-phase
-		// key controller -- which only fires for ancestors of the focused widget -- never sees
-		// the keypresses meant to set the new shortcut. Deferred to idle: grabbing focus
-		// synchronously during vfunc_map can lose to the dialog's own open animation/presentation
-		// logic still moving focus around on some libadwaita versions.
-		GLib.idle_add(GLib.PRIORITY_DEFAULT_IDLE, () => {
-			this._box.grab_focus();
+		// versions the dialog can end up mapped without ever moving focus into it, so our
+		// CAPTURE-phase key controller -- which only fires for ancestors of the focused widget --
+		// never sees the keypresses meant to set the new shortcut. A plain idle callback isn't
+		// enough either: AdwDialog's own open animation/presentation logic can still move focus
+		// around afterwards on some libadwaita versions, so retry for a bit to win that race.
+		let attempts = 0;
+		this._focusRetryId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, 50, () => {
+			if (!this._box.has_focus) {
+				this.grab_focus();
+				this._box.grab_focus();
+			}
+
+			if (++attempts < 6) return GLib.SOURCE_CONTINUE;
+			this._focusRetryId = 0;
 			return GLib.SOURCE_REMOVE;
 		});
 
@@ -198,6 +205,11 @@ class ShortcutDialog extends Adw.Dialog {
 
 	override vfunc_unmap(): void {
 		super.vfunc_unmap();
+
+		if (this._focusRetryId) {
+			GLib.source_remove(this._focusRetryId);
+			this._focusRetryId = 0;
+		}
 
 		if (!this._shortcutsInhibited) {
 			return;
