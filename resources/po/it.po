@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-07 22:52+0000\n"
+"POT-Creation-Date: 2026-08-08 11:59+0000\n"
 "PO-Revision-Date: 2025-12-14 10:45+0100\n"
 "Last-Translator: Fabian Esposito <fabian.esposito@outlook.com>\n"
 "Language-Team: Italiano\n"
@@ -168,7 +168,7 @@ msgstr "File"
 #: src/lib/preferences/actions/actionDefaults.ts:148
 #: src/lib/preferences/actions/actionDialog.ts:179
 #: src/lib/preferences/actions/actionDialog.ts:376
-#: src/lib/ui/items/filesItem.ts:140
+#: src/lib/ui/items/filesItem.ts:143
 msgid "Files"
 msgstr "File"
 
@@ -214,8 +214,8 @@ msgstr "Seleziona quali tipi sono consentiti"
 #: src/lib/preferences/customization/items/exclusions.ts:90
 #: src/lib/preferences/dependencies/dependencies.ts:225
 #: src/lib/preferences/general/appExclusionSettings.ts:171
-#: src/lib/preferences/shortcuts/shortcutRow.ts:131
-#: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:47
+#: src/lib/preferences/shortcuts/shortcutRow.ts:134
+#: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:48
 msgid "Cancel"
 msgstr "Annulla"
 
@@ -1504,8 +1504,8 @@ msgstr ""
 "disconnessione o spegnimento del sistema"
 
 #: src/lib/preferences/general/historySettings.ts:137
-#: src/lib/ui/clipboardDialog.ts:130 src/lib/ui/clipboardDialog.ts:235
-#: src/lib/ui/indicator.ts:54
+#: src/lib/ui/clipboardDialog.ts:131 src/lib/ui/clipboardDialog.ts:236
+#: src/lib/ui/indicator.ts:55
 msgid "Clear"
 msgstr "Cancella"
 
@@ -1715,15 +1715,15 @@ msgstr "Scorri tipo elemento"
 msgid "Cycle Item Tag"
 msgstr "Scorri etichetta elemento"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:78
+#: src/lib/preferences/shortcuts/shortcutRow.ts:79
 msgid "Set Shortcut"
 msgstr "Imposta scorciatoia"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:126
+#: src/lib/preferences/shortcuts/shortcutRow.ts:129
 msgid "Disable Shortcut"
 msgstr "Disabilita scorciatoia"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:219
+#: src/lib/preferences/shortcuts/shortcutRow.ts:229
 msgid "Disabled"
 msgstr "Disabilitato"
 
@@ -1779,31 +1779,31 @@ msgstr "Modifica elemento degli appunti"
 msgid "Close"
 msgstr "Chiudi"
 
-#: src/lib/ui/indicator.ts:38
+#: src/lib/ui/indicator.ts:39
 msgid "Clear Clipboard History?"
 msgstr "Cancellare la cronologia degli appunti?"
 
-#: src/lib/ui/indicator.ts:39
+#: src/lib/ui/indicator.ts:40
 msgid "Are you sure you want to clear your clipboard history?"
 msgstr "Sei sicuro di voler cancellare la cronologia dei tuoi appunti?"
 
-#: src/lib/ui/indicator.ts:43
+#: src/lib/ui/indicator.ts:44
 msgid "Clear Pinned/Tagged Items"
 msgstr "Cancella elementi fissati/contrassegnati"
 
-#: src/lib/ui/indicator.ts:102
+#: src/lib/ui/indicator.ts:105
 msgid "Incognito Mode"
 msgstr "Modalità Incognito"
 
-#: src/lib/ui/indicator.ts:105
+#: src/lib/ui/indicator.ts:108
 msgid "Clear History"
 msgstr "Cancella la cronologia"
 
-#: src/lib/ui/indicator.ts:106
+#: src/lib/ui/indicator.ts:109
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: src/lib/ui/indicator.ts:199
+#: src/lib/ui/indicator.ts:202
 #, javascript-format
 msgid "%d File"
 msgid_plural "%d Files"
@@ -1814,14 +1814,14 @@ msgstr[1] "%d file"
 msgid "Char"
 msgstr "Car"
 
-#: src/lib/ui/items/filesItem.ts:120
+#: src/lib/ui/items/filesItem.ts:123
 #, javascript-format
 msgid "%d more file"
 msgid_plural "%d more files"
 msgstr[0] "%d altro file"
 msgstr[1] "%d altri file"
 
-#: src/lib/ui/items/filesItem.ts:121
+#: src/lib/ui/items/filesItem.ts:124
 #, javascript-format
 msgid "%d file"
 msgid_plural "%d files"
@@ -1836,11 +1836,11 @@ msgstr "Nessun titolo"
 msgid "No Description"
 msgstr "Nessuna descrizione"
 
-#: src/lib/ui/items/statusItem.ts:70 src/lib/ui/items/statusItem.ts:104
+#: src/lib/ui/items/statusItem.ts:73 src/lib/ui/items/statusItem.ts:107
 msgid "Clipboard is Empty"
 msgstr "Gli appunti sono vuoti"
 
-#: src/lib/ui/items/statusItem.ts:107
+#: src/lib/ui/items/statusItem.ts:110
 msgid "No Items Found"
 msgstr "Nessun elemento trovato"
 
