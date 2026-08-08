@@ -72,6 +72,7 @@ function isValidBinding(keyval: number, keycode: number, mask: Gdk.ModifierType)
 class ShortcutDialog extends Adw.Dialog {
 	private _shortcutsInhibited: boolean;
 	private readonly _controller: Gtk.EventControllerKey;
+	private readonly _box: Gtk.Box;
 
 	constructor() {
 		super({
@@ -104,7 +105,9 @@ class ShortcutDialog extends Adw.Dialog {
 			margin_end: 12,
 			margin_bottom: 12,
 			spacing: 6,
+			can_focus: true,
 		});
+		this._box = box;
 		view.set_content(box);
 
 		box.append(
@@ -168,6 +171,13 @@ class ShortcutDialog extends Adw.Dialog {
 
 	override vfunc_map(): void {
 		super.vfunc_map();
+
+		// Explicitly grab focus onto the dialog's own content. Without this, on some libadwaita
+		// versions the dialog can end up mapped without ever moving focus off whatever was
+		// focused in the parent window (e.g. the preferences search entry), so our CAPTURE-phase
+		// key controller -- which only fires for ancestors of the focused widget -- never sees
+		// the keypresses meant to set the new shortcut.
+		this._box.grab_focus();
 
 		if (this._shortcutsInhibited) {
 			return;

@@ -6,6 +6,7 @@ import St from 'gi://St';
 import { gettext as _, ngettext } from 'resource:///org/gnome/shell/extensions/extension.js';
 
 import type CopyousExtension from '../../../extension.js';
+import { boxLayoutProps } from '../../common/boxLayout.js';
 import { registerClass } from '../../common/gjs.js';
 import { Icon } from '../../common/icons.js';
 import { ClipboardEntry } from '../../database/database.js';
@@ -42,13 +43,15 @@ export class FilesPreview extends ContentPreview {
 
 		this.add_style_class_name('files-preview');
 
-		this._files = new St.BoxLayout({
-			style_class: 'files-preview-list',
-			orientation: Clutter.Orientation.VERTICAL,
-			min_height: 0,
-			x_expand: true,
-			clip_to_allocation: true,
-		});
+		this._files = new St.BoxLayout(
+			boxLayoutProps({
+				style_class: 'files-preview-list',
+				orientation: Clutter.Orientation.VERTICAL,
+				min_height: 0,
+				x_expand: true,
+				clip_to_allocation: true,
+			}),
+		);
 		this.add_child(this._files);
 
 		for (const file of files) {

@@ -6,6 +6,7 @@ import Shell from 'gi://Shell';
 import St from 'gi://St';
 
 import type CopyousExtension from '../../../extension.js';
+import { boxLayoutProps } from '../../common/boxLayout.js';
 import { ActiveState } from '../../common/constants.js';
 import { flagsParamSpec, registerClass } from '../../common/gjs.js';
 import { Icon } from '../../common/icons.js';
@@ -66,14 +67,16 @@ export class ClipboardItem extends St.Button {
 		this._header = new ClipboardItemHeader(ext, icon, title);
 		this._box.add_child(this._header);
 
-		this._content = new St.BoxLayout({
-			style_class: 'clipboard-item-content',
-			orientation: Clutter.Orientation.VERTICAL,
-			x_expand: true,
-			y_expand: true,
-			clip_to_allocation: true,
-			effect: new HoleEffect(this._header.buttons),
-		});
+		this._content = new St.BoxLayout(
+			boxLayoutProps({
+				style_class: 'clipboard-item-content',
+				orientation: Clutter.Orientation.VERTICAL,
+				x_expand: true,
+				y_expand: true,
+				clip_to_allocation: true,
+				effect: new HoleEffect(this._header.buttons),
+			}),
+		);
 		this._box.add_child(this._content);
 
 		// Bind properties

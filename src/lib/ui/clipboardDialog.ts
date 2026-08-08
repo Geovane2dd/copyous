@@ -14,6 +14,7 @@ import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
 import { EasingParamsWithProperties } from '@girs/gnome-shell/extensions/global';
 
 import type CopyousExtension from '../../extension.js';
+import { boxLayoutProps } from '../common/boxLayout.js';
 import { ItemType } from '../common/constants.js';
 import { registerClass } from '../common/gjs.js';
 import { Icon, loadIcon } from '../common/icons.js';
@@ -291,14 +292,16 @@ export class ClipboardDialog extends St.Widget {
 		Main.layoutManager.modalDialogGroup.add_child(this);
 
 		// Dialog
-		this._dialog = new St.BoxLayout({
-			orientation: Clutter.Orientation.VERTICAL,
-			style_class: 'clipboard-dialog horizontal',
-			x_align: Clutter.ActorAlign.FILL,
-			y_align: Clutter.ActorAlign.CENTER,
-			x_expand: true,
-			y_expand: true,
-		});
+		this._dialog = new St.BoxLayout(
+			boxLayoutProps({
+				orientation: Clutter.Orientation.VERTICAL,
+				style_class: 'clipboard-dialog horizontal',
+				x_align: Clutter.ActorAlign.FILL,
+				y_align: Clutter.ActorAlign.CENTER,
+				x_expand: true,
+				y_expand: true,
+			}),
+		);
 		this.add_child(this._dialog);
 
 		this._fitConstraint = new FitConstraint(this, false);

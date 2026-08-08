@@ -6,6 +6,7 @@ import St from 'gi://St';
 import { gettext as _ } from 'resource:///org/gnome/shell/extensions/extension.js';
 
 import type CopyousExtension from '../../../extension.js';
+import { boxLayoutProps } from '../../common/boxLayout.js';
 import { enumParamSpec, registerClass } from '../../common/gjs.js';
 import { Icon, loadIcon } from '../../common/icons.js';
 
@@ -44,14 +45,16 @@ export class StatusItem extends St.BoxLayout {
 
 		this._state = State.Empty;
 
-		const box = new St.BoxLayout({
-			style_class: 'status-item-content',
-			x_align: Clutter.ActorAlign.CENTER,
-			y_align: Clutter.ActorAlign.CENTER,
-			x_expand: true,
-			y_expand: true,
-			orientation: Clutter.Orientation.VERTICAL,
-		});
+		const box = new St.BoxLayout(
+			boxLayoutProps({
+				style_class: 'status-item-content',
+				x_align: Clutter.ActorAlign.CENTER,
+				y_align: Clutter.ActorAlign.CENTER,
+				x_expand: true,
+				y_expand: true,
+				orientation: Clutter.Orientation.VERTICAL,
+			}),
+		);
 		this.add_child(box);
 
 		this._emptyIcon = loadIcon(ext, Icon.Clipboard);

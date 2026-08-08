@@ -15,6 +15,7 @@ import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
 import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
 
 import type CopyousExtension from '../../extension.js';
+import { boxLayoutProps } from '../common/boxLayout.js';
 import { Color } from '../common/color.js';
 import { ItemType } from '../common/constants.js';
 import { registerClass } from '../common/gjs.js';
@@ -87,10 +88,12 @@ export class ClipboardIndicator extends PanelMenu.Button {
 		super(0.5, ext.metadata.name, false);
 		this.configurePanelMenuClickGesture();
 
-		this._box = new St.BoxLayout({
-			style_class: 'copyous-indicator-box',
-			orientation: Clutter.Orientation.HORIZONTAL,
-		});
+		this._box = new St.BoxLayout(
+			boxLayoutProps({
+				style_class: 'copyous-indicator-box',
+				orientation: Clutter.Orientation.HORIZONTAL,
+			}),
+		);
 		this.add_child(this._box);
 
 		this._icon = new St.Icon({

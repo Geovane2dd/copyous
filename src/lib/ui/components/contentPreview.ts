@@ -8,6 +8,7 @@ import St from 'gi://St';
 import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 
 import type CopyousExtension from '../../../extension.js';
+import { boxLayoutProps } from '../../common/boxLayout.js';
 import { ActiveState } from '../../common/constants.js';
 import { enumParamSpec, flagsParamSpec, registerClass } from '../../common/gjs.js';
 import { Icon, loadIcon } from '../../common/icons.js';
@@ -28,12 +29,14 @@ export type FileType = (typeof FileType)[keyof typeof FileType];
 @registerClass()
 export class ContentPreview extends St.BoxLayout {
 	constructor() {
-		super({
-			style_class: 'content-preview',
-			orientation: Clutter.Orientation.VERTICAL,
-			x_expand: true,
-			y_expand: true,
-		});
+		super(
+			boxLayoutProps({
+				style_class: 'content-preview',
+				orientation: Clutter.Orientation.VERTICAL,
+				x_expand: true,
+				y_expand: true,
+			}),
+		);
 	}
 }
 
