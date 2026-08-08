@@ -176,8 +176,13 @@ class ShortcutDialog extends Adw.Dialog {
 		// versions the dialog can end up mapped without ever moving focus off whatever was
 		// focused in the parent window (e.g. the preferences search entry), so our CAPTURE-phase
 		// key controller -- which only fires for ancestors of the focused widget -- never sees
-		// the keypresses meant to set the new shortcut.
-		this._box.grab_focus();
+		// the keypresses meant to set the new shortcut. Deferred to idle: grabbing focus
+		// synchronously during vfunc_map can lose to the dialog's own open animation/presentation
+		// logic still moving focus around on some libadwaita versions.
+		GLib.idle_add(GLib.PRIORITY_DEFAULT_IDLE, () => {
+			this._box.grab_focus();
+			return GLib.SOURCE_REMOVE;
+		});
 
 		if (this._shortcutsInhibited) {
 			return;

@@ -2,6 +2,7 @@ import Clutter from 'gi://Clutter';
 import St from 'gi://St';
 
 import type CopyousExtension from '../../extension.js';
+import { getBoxLayoutOrientation, setBoxLayoutOrientation } from '../common/boxLayout.js';
 import { registerClass } from '../common/gjs.js';
 import {
 	get_first_visible_child,
@@ -29,6 +30,14 @@ export class ClipboardScrollContainer extends St.BoxLayout {
 
 		this._statusItem = new StatusItem(ext);
 		this.updateVisible();
+	}
+
+	override get orientation(): Clutter.Orientation {
+		return getBoxLayoutOrientation(this);
+	}
+
+	override set orientation(value: Clutter.Orientation) {
+		setBoxLayoutOrientation(this, value);
 	}
 
 	private updateVisible() {

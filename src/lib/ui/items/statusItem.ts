@@ -31,17 +31,19 @@ export class StatusItem extends St.BoxLayout {
 	private readonly _text: St.Label;
 
 	constructor(private ext: CopyousExtension) {
-		super({
-			style_class: 'clipboard-item status-item',
-			orientation: Clutter.Orientation.VERTICAL,
-			can_focus: false,
-			width: 300,
-			height: 200,
-			x_align: Clutter.ActorAlign.CENTER,
-			y_align: Clutter.ActorAlign.CENTER,
-			x_expand: true,
-			y_expand: true,
-		});
+		super(
+			boxLayoutProps({
+				style_class: 'clipboard-item status-item',
+				orientation: Clutter.Orientation.VERTICAL,
+				can_focus: false,
+				width: 300,
+				height: 200,
+				x_align: Clutter.ActorAlign.CENTER,
+				y_align: Clutter.ActorAlign.CENTER,
+				x_expand: true,
+				y_expand: true,
+			}),
+		);
 
 		this._state = State.Empty;
 

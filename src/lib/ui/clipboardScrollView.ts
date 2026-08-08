@@ -63,7 +63,11 @@ export class ClipboardScrollView extends St.ScrollView {
 		this.updateSize();
 		this.updateScrollbar();
 
-		this.bind_property('orientation', this._scrollContainer, 'orientation', GObject.BindingFlags.SYNC_CREATE);
+		// `bind_property()` requires `orientation` to be a real, registered GObject property on
+		// both ends, which it isn't on `ClipboardScrollContainer` pre-GNOME 48 (see boxLayout.js),
+		// so sync it manually instead.
+		this._scrollContainer.orientation = this.orientation;
+		this.connect('notify::orientation', () => (this._scrollContainer.orientation = this.orientation));
 	}
 
 	get orientation(): Clutter.Orientation {
