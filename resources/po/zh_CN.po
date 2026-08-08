@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-08 13:02+0000\n"
+"POT-Creation-Date: 2026-08-08 13:24+0000\n"
 "PO-Revision-Date: 2025-12-19 18:30+0800\n"
 "Last-Translator: everyx <lunt.luo@gmail.com>\n"
 "Language-Team: Chinese (China)\n"
@@ -215,7 +215,7 @@ msgstr "选择哪些类型被允许"
 #: src/lib/preferences/customization/items/exclusions.ts:90
 #: src/lib/preferences/dependencies/dependencies.ts:225
 #: src/lib/preferences/general/appExclusionSettings.ts:171
-#: src/lib/preferences/shortcuts/shortcutRow.ts:134
+#: src/lib/preferences/shortcuts/shortcutRow.ts:135
 #: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:48
 msgid "Cancel"
 msgstr "取消"
@@ -1670,15 +1670,15 @@ msgstr "循环项目类型"
 msgid "Cycle Item Tag"
 msgstr "循环项目标签"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:79
+#: src/lib/preferences/shortcuts/shortcutRow.ts:80
 msgid "Set Shortcut"
 msgstr "设置快捷键"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:129
+#: src/lib/preferences/shortcuts/shortcutRow.ts:130
 msgid "Disable Shortcut"
 msgstr "禁用快捷键"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:234
+#: src/lib/preferences/shortcuts/shortcutRow.ts:246
 msgid "Disabled"
 msgstr "已禁用"
 

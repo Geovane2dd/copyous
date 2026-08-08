@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-08 13:02+0000\n"
+"POT-Creation-Date: 2026-08-08 13:24+0000\n"
 "PO-Revision-Date: 2025-12-01 18:02-0300\n"
 "Last-Translator: Murilo Leal <murilormleal@outlook.com>\n"
 "Language-Team: Portuguese (Brazil)\n"
@@ -214,7 +214,7 @@ msgstr "Selecione quais tipos são permitidos"
 #: src/lib/preferences/customization/items/exclusions.ts:90
 #: src/lib/preferences/dependencies/dependencies.ts:225
 #: src/lib/preferences/general/appExclusionSettings.ts:171
-#: src/lib/preferences/shortcuts/shortcutRow.ts:134
+#: src/lib/preferences/shortcuts/shortcutRow.ts:135
 #: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:48
 msgid "Cancel"
 msgstr "Cancelar"
@@ -1697,15 +1697,15 @@ msgstr "Ciclar Tipo de Item"
 msgid "Cycle Item Tag"
 msgstr "Ciclar Tag de Item"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:79
+#: src/lib/preferences/shortcuts/shortcutRow.ts:80
 msgid "Set Shortcut"
 msgstr "Adicionar Atalho"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:129
+#: src/lib/preferences/shortcuts/shortcutRow.ts:130
 msgid "Disable Shortcut"
 msgstr "Desativar Atalho"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:234
+#: src/lib/preferences/shortcuts/shortcutRow.ts:246
 msgid "Disabled"
 msgstr "Desabilitado"
 
