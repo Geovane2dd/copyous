@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-08 13:24+0000\n"
+"POT-Creation-Date: 2026-08-08 13:32+0000\n"
 "PO-Revision-Date: 2025-11-30 20:29+0700\n"
 "Last-Translator: Victor <firephantom303@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -218,7 +218,7 @@ msgstr "Выберите, какие типы разрешены"
 #: src/lib/preferences/customization/items/exclusions.ts:90
 #: src/lib/preferences/dependencies/dependencies.ts:225
 #: src/lib/preferences/general/appExclusionSettings.ts:171
-#: src/lib/preferences/shortcuts/shortcutRow.ts:135
+#: src/lib/preferences/shortcuts/shortcutRow.ts:136
 #: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:48
 msgid "Cancel"
 msgstr "Отмена"
@@ -1694,11 +1694,11 @@ msgstr "Переключать метку элемента"
 msgid "Set Shortcut"
 msgstr "Задать сочетание клавиш"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:130
+#: src/lib/preferences/shortcuts/shortcutRow.ts:131
 msgid "Disable Shortcut"
 msgstr "Отключить сочетание клавиш"
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:246
+#: src/lib/preferences/shortcuts/shortcutRow.ts:247
 msgid "Disabled"
 msgstr "Отключено"
 

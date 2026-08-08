@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Copyous\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-08 13:24+0000\n"
+"POT-Creation-Date: 2026-08-08 13:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -215,7 +215,7 @@ msgstr ""
 #: src/lib/preferences/customization/items/exclusions.ts:90
 #: src/lib/preferences/dependencies/dependencies.ts:225
 #: src/lib/preferences/general/appExclusionSettings.ts:171
-#: src/lib/preferences/shortcuts/shortcutRow.ts:135
+#: src/lib/preferences/shortcuts/shortcutRow.ts:136
 #: src/lib/ui/components/editDialog.ts:306 src/lib/ui/indicator.ts:48
 msgid "Cancel"
 msgstr ""
@@ -1665,11 +1665,11 @@ msgstr ""
 msgid "Set Shortcut"
 msgstr ""
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:130
+#: src/lib/preferences/shortcuts/shortcutRow.ts:131
 msgid "Disable Shortcut"
 msgstr ""
 
-#: src/lib/preferences/shortcuts/shortcutRow.ts:246
+#: src/lib/preferences/shortcuts/shortcutRow.ts:247
 msgid "Disabled"
 msgstr ""
 
