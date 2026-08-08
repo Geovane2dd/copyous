@@ -253,8 +253,20 @@ export class ShortcutRow extends Adw.ActionRow {
 
 	override vfunc_activate() {
 		if (this._canEdit) {
+			// Adw.PreferencesWindow's own interactive search installs a capture-phase key
+			// controller on the window, which on some libadwaita versions wins the race against
+			// the dialog's own capture-phase controller (capture propagates root-to-target, and
+			// the window is above the dialog), swallowing keystrokes meant for the dialog.
+			// Disable search for as long as the dialog is open to avoid the conflict.
+			const window = this.get_root() as Adw.PreferencesWindow | null;
+			const searchWasEnabled = window?.search_enabled ?? false;
+			if (window) window.search_enabled = false;
+
 			const dialog = new ShortcutDialog();
 			dialog.connect('shortcut-entered', (_dialog, s: string) => (this.shortcuts = [s]));
+			dialog.connect('closed', () => {
+				if (window) window.search_enabled = searchWasEnabled;
+			});
 			dialog.present(this);
 		}
 	}
